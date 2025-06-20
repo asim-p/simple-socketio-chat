@@ -9,9 +9,8 @@ const server = http.createServer(app);
 const io = new Server(server); 
 
 io.on('connection',socket=>{
-    socket.on('chat-message',(message,userid) => {
+    socket.on('chat-message',(message) => {
         io.emit('chat-message',message);
-        io.emit('userid',userid);
     })
 })
 
