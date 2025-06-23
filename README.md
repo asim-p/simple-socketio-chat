@@ -51,7 +51,3 @@ Open in multiple tabs or browsers to see real-time communication be broadcasted 
 
 - express
 - socket.io
-
-## 📸 Preview
-
-![Preview](SocketSS.png)
